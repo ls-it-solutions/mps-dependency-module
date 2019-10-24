@@ -20,10 +20,10 @@ Each dependency module can have different aspects to unfold underneath:
   * a maven artifact dependency might unfold java-sources, java-docs, jar-files, other attachments to the artifact, and transitive dependencies... excludes etc.
   * a dependency module can decide what to present.
   
-# The dependency module as dependency
+## The dependency module as dependency
 The dependency module can then be used in other modules as dependency.
 It will provide the languages, modules, models as if they were preinstalled.
 
-# Enabling automatic build?
+## Enabling automatic build?
 For the time being in MPS Projects we create a build script for generating the sources, compilation, packaging and naming of the artifacts. The build should be best supported by the dependency modules.
 My favorite would be just scriptless build by modeling the artifact outcome and its dependencies as layed out in the project will be used to fulfill the whole build and packaging.
