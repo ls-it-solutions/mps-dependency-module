@@ -4,8 +4,15 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
+artifacts/
+**/.settings/
+.project
+.classpath
+*_gen*
+.flattened*
+.mps/workspace.xml
+target/
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
